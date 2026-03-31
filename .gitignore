@@ -1,0 +1,32 @@
+# R files
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Data files (don't upload large datasets)
+data/*.bed
+data/*.txt
+data/*.vcf
+data/*.csv
+*.fastq
+*.bam
+
+# But keep example data
+!data/example_*
+!data/README.md
+
+# Results
+results/*.pdf
+results/*.png
+results/*.rds
+*.html
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.swp
+*.tmp
