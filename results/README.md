@@ -8,7 +8,6 @@ This repository contains R scripts for performing Redundancy Analysis (RDA) to i
 
 - Principal Component Analysis (PCA) on SNP data
 - RDA on methylation data conditioned on genetic structure
-- Variance partitioning
 - Visualization of results
 
 ## Requirements
@@ -32,7 +31,7 @@ if (!require("BiocManager", quietly = TRUE))
 BiocManager::install("adegenet")
 ```
 
-## Input Data Format
+## Input Data 
 
 ### 1. Sample Metadata (`sample_design.txt`)
 #Tab-delimited file with samples as rows:
@@ -43,8 +42,6 @@ sample_id population treatment country
 
 ### 3. Methylation Data (`methylation_data.bed`)
 BED-format file with columns: chr, pos, strand, followed by methylation values for each sample.
-
-## Usage
 
 ### Basic Analysis
 ```r
@@ -103,7 +100,7 @@ MIT License - see LICENSE file
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact: niloyatroyee@example.com
+For questions or issues, please open an issue on GitHub or contact: niloyatroyee@gmail.com
 
 ## Acknowledgments
 
