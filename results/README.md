@@ -94,7 +94,7 @@ RDA is a multivariate linear regression where each response variable is regresse
 ## Citation
 
 If you use this code, please cite:
-Anupoma N. Troyee (2024). RDA Epigenetic Analysis Pipeline. GitHub repository: https://github.com/yourusername/rda-epigenetic-analysis
+Anupoma N. Troyee (2024). RDA Epigenetic Analysis Pipeline. GitHub repository: https://github.com/yourusername/rda-epigenetic-analyis
 
 
 ## License
